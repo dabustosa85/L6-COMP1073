@@ -41,8 +41,7 @@ thumbBar.addEventListener('click', function(event){
 		//6C: set the CSS z-index property to "10"
 		event.target.style.zIndex = "10";
 
-	}
-	//6D: var 'thumbImages' using querySelectorAll to grab all the IMG elements inside the .thumb-bar
+		//6D: var 'thumbImages' using querySelectorAll to grab all the IMG elements inside the .thumb-bar
 	let thumbImages = document.querySelectorAll('.thumb-bar img');
 	//6E: Build a function 'clearWayfinding()' that loops through the thumbImages array with a FOR loop
 	function clearWayfinding(){
@@ -54,6 +53,8 @@ thumbBar.addEventListener('click', function(event){
 	}
 	//6G: Call the clearWayfinding() function
 	clearWayfinding();
+	}
+	
 
 });
 
